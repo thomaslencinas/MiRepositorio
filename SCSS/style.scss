@@ -1,0 +1,59 @@
+body {
+    .logo {
+        height: 50px;
+        width: auto;
+    }
+
+    #portada {
+        width: 100%;
+        height: 500px;
+    }
+
+    .estrenos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "";
+        background-color: #071134;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: blanchedalmond;
+    }
+
+    .estreno {
+        height: 500px;
+        width: auto;
+    }
+
+    h2 {
+        background-color: #071134;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: blanchedalmond;
+    }
+
+    .video {
+        height: 100%;
+        width: 100%
+    }
+
+    .video-size {
+        width: 100%;
+        height: 500px;
+    }
+
+    .contenedor {
+        display: flex;
+        align-items: center;
+    }
+
+    .pj {
+        margin-right: 15px;
+        /* Espacio entre la imagen y el texto */
+    }
+
+    .pj-size {
+        height: 680
+    }
